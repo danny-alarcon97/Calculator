@@ -3,11 +3,7 @@ const app = express();
 const port = 3000;
 
 app.get("/", function (req, res) {
-  res.send("Hello World");
-});
-
-app.get("/about", function (req, res) {
-  res.send("I am Daniel, a Junior software engineer");
+  res.sendFile(__dirname + "/index.html");
 });
 
 app.listen(port, function () {
