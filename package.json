@@ -1,0 +1,22 @@
+{
+  "name": "calculator",
+  "version": "1.0.0",
+  "description": "practicing backend express.js and node.js by making a calculator",
+  "main": "calculator.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danny-alarcon97/Calculator.git"
+  },
+  "author": "Daniel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danny-alarcon97/Calculator/issues"
+  },
+  "homepage": "https://github.com/danny-alarcon97/Calculator#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
