@@ -1,10 +1,15 @@
 const express = require("express");
 const app = express();
+const port = 3000;
 
 app.get("/", function (req, res) {
   res.send("Hello World");
 });
 
-app.listen(3000, function () {
-  console.log("Server started on port 3000");
+app.get("/about", function (req, res) {
+  res.send("I am Daniel, a Junior software engineer");
+});
+
+app.listen(port, function () {
+  console.log(`Example app listening on port ${port}`);
 });
